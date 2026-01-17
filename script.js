@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
             RESUME TEXT: ${resumeText}`;
 
             // --- CALLING YOUR LOCAL BACKEND ---
-            const response = await fetch("http://localhost:3000/api/analyze", {
+            const response = await fetch("https://hiremetrics-jmkn.onrender.com/api/analyze", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ prompt: promptContent })
