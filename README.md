@@ -57,14 +57,14 @@ This project was built by a team of three friends during a hackathon with the go
 
 HireMetrics/
 │
-├── index.html # Main frontend UI
-├── style.css # Styling and responsive design
-├── script.js # Frontend logic and API calls
-├── server.js # Backend server & AI integration
-├── package.json
-├── package-lock.json
-├── .env_sample # Environment variable template
-├── .gitignore
+├── index.html # Main frontend UI<br>
+├── style.css # Styling and responsive design<br>
+├── script.js # Frontend logic and API calls<br>
+├── server.js # Backend server & AI integration<br>
+├── package.json<br>
+├── package-lock.json<br>
+├── .env_sample # Environment variable template<br>
+├── .gitignore<br>
 
 
 ---
@@ -72,14 +72,14 @@ HireMetrics/
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
-git clone [https://github.com/Prabin-007/HireMetrics]
+git clone [https://github.com/Prabin-007/HireMetrics]<br>
 cd HireMetrics
 
 ### Install Dependencies
 npm install
 
 ### Create a .env file using .env_sample as reference.
-OPENROUTER_API_KEY=your_api_key_here
+OPENROUTER_API_KEY=your_api_key_here<br>
 PORT=3000
 
 ### Start the Backend Server
@@ -90,18 +90,18 @@ Open index.html using Live Server or directly in your browser.
 
 🚧 Known Limitations
 
-ATS scoring is heuristic-based and not company-specific
-Resume formatting/design is not analyzed
-Large resumes may take longer to process
+ATS scoring is heuristic-based and not company-specific<br>
+Resume formatting/design is not analyzed<br>
+Large resumes may take longer to process<br>
 
 🌱 Future Improvements
 
-Keyword highlighting inside resume text
-Section-wise resume feedback
-Multiple job description comparison
-Resume export suggestions
-User authentication & history tracking
+Keyword highlighting inside resume text<br>
+Section-wise resume feedback<br>
+Multiple job description comparison<br>
+Resume export suggestions<br>
+User authentication & history tracking<br>
 
 👨‍💻 Team
 
-Built with ❤️ by a team of three friends during a hackathon.
+Built with ❤️ by team AlgoKnights during the Caculo Innovation Hackathon.
