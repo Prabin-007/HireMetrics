@@ -1,4 +1,3 @@
-<<<<<<< HEAD:public/style.css
 :root {
     --primary: #4f46e5;
     --bg: #f8fafc;
@@ -172,7 +171,6 @@ textarea#jdInput {
 .hidden {
     display: none !important;
 }
-=======
 :root {
     --primary: #4f46e5;
     --bg: #f8fafc;
@@ -385,4 +383,4 @@ textarea#jdInput {
         height: 150px;
     }
 }
->>>>>>> d5031cb94b47b39a907ec73b5583faa55a1fda75:style.css
+
