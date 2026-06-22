@@ -24,7 +24,7 @@ app.post('/api/analyze', async (req, res) => {
                 "X-Title": "HireMetrics"
             },
             body: JSON.stringify({
-                "model": "mistralai/mistral-small-creative", 
+                "model": "deepseek/deepseek-r1:free", 
                 "messages": [{ "role": "user", "content": req.body.prompt }]
             })
         });
