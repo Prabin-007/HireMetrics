@@ -16,9 +16,9 @@ if (!process.env.OPENROUTER_KEY) {
 app.post('/api/analyze', async (req, res) => {
     try {
         //temp debug
-        const key = process.env.OPENROUTER_KEY;
-        console.log("KEY length:", key ? key.length : "undefined/null");
-        console.log("KEY preview:", key ? `${key.slice(0, 6)}...${key.slice(-4)}` : "n/a");
+        // const key = process.env.OPENROUTER_KEY;
+        // console.log("KEY length:", key ? key.length : "undefined/null");
+        // console.log("KEY preview:", key ? `${key.slice(0, 6)}...${key.slice(-4)}` : "n/a");
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
@@ -28,7 +28,7 @@ app.post('/api/analyze', async (req, res) => {
                 "X-Title": "HireMetrics"
             },
             body: JSON.stringify({
-                "model": "deepseek/deepseek-r1:free", 
+                "model": "openrouter/free", 
                 "messages": [{ "role": "user", "content": req.body.prompt }]
             })
         });
